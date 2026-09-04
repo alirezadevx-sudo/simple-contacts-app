@@ -17,10 +17,15 @@ Works on Windows, Linux, and macOS.
 
 You will see a menu:
 
-Action,    How it works
-Add,       Appends name|phone|email to contacts.txt
-Delete,    "Matches by name, copies other lines to temp.txt, then replaces contacts.txt"
-Search,    "Partial match on name (strstr); prints name, phone, and email"
+
+2. **Table in real Markdown** — so GitHub formats it cleanly:
+
+| Action | How it works |
+|--------|----------------|
+| **Add** | Appends `name\|phone\|email` to `contacts.txt` |
+| **Delete** | Matches by name, copies other lines to `temp.txt`, then replaces `contacts.txt` |
+| **Search** | Partial match on name (`strstr`); prints name, phone, and email |
+
 
 ## ATTENTION
 
